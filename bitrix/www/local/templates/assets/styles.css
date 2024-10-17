@@ -1,0 +1,62 @@
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    height: 176px;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 32px;
+  }
+  
+  .logo {
+    width: 160px;
+  }
+  
+  .search-field {
+    width: 166px;
+    height: 38px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .account-button {
+    width: 186px;
+    height: 38px;
+    background-color: #000000;
+    color: #ff0000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .account-button:hover {
+    background-color: #ff0000;
+  }
+  
